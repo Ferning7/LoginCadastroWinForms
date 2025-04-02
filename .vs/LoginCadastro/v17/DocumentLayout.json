@@ -3,16 +3,20 @@
   "WorkspaceRootPath": "C:\\Users\\Aluno_Manha\\source\\repos\\LoginCadastro\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{86571B6D-CE0B-43EE-8C50-09B8047AD441}|LoginCadastro\\LoginCadastro.csproj|c:\\users\\aluno_manha\\source\\repos\\logincadastro\\logincadastro\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{86571B6D-CE0B-43EE-8C50-09B8047AD441}|LoginCadastro\\LoginCadastro.csproj|solutionrelative:logincadastro\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{86571B6D-CE0B-43EE-8C50-09B8047AD441}|LoginCadastro\\LoginCadastro.csproj|c:\\users\\aluno_manha\\source\\repos\\logincadastro\\logincadastro\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
       "RelativeMoniker": "D:0:0:{86571B6D-CE0B-43EE-8C50-09B8047AD441}|LoginCadastro\\LoginCadastro.csproj|solutionrelative:logincadastro\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     },
     {
+      "AbsoluteMoniker": "D:0:0:{86571B6D-CE0B-43EE-8C50-09B8047AD441}|LoginCadastro\\LoginCadastro.csproj|c:\\users\\aluno_manha\\source\\repos\\logincadastro\\logincadastro\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{86571B6D-CE0B-43EE-8C50-09B8047AD441}|LoginCadastro\\LoginCadastro.csproj|solutionrelative:logincadastro\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{86571B6D-CE0B-43EE-8C50-09B8047AD441}|LoginCadastro\\LoginCadastro.csproj|c:\\users\\aluno_manha\\source\\repos\\logincadastro\\logincadastro\\cadastro.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
       "RelativeMoniker": "D:0:0:{86571B6D-CE0B-43EE-8C50-09B8047AD441}|LoginCadastro\\LoginCadastro.csproj|solutionrelative:logincadastro\\cadastro.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{86571B6D-CE0B-43EE-8C50-09B8047AD441}|LoginCadastro\\LoginCadastro.csproj|c:\\users\\aluno_manha\\source\\repos\\logincadastro\\logincadastro\\cadastro.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{86571B6D-CE0B-43EE-8C50-09B8047AD441}|LoginCadastro\\LoginCadastro.csproj|solutionrelative:logincadastro\\cadastro.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -33,30 +37,43 @@
               "ToolTip": "C:\\Users\\Aluno_Manha\\source\\repos\\LoginCadastro\\LoginCadastro\\cadastro.cs [Projeto]",
               "RelativeToolTip": "LoginCadastro\\cadastro.cs [Projeto]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-01T14:17:13.486Z",
+              "WhenOpened": "2025-04-02T11:03:01.567Z",
               "EditorCaption": " [Projeto]"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 3,
+              "Title": "cadastro.cs",
+              "DocumentMoniker": "C:\\Users\\Aluno_Manha\\source\\repos\\LoginCadastro\\LoginCadastro\\cadastro.cs",
+              "RelativeDocumentMoniker": "LoginCadastro\\cadastro.cs",
+              "ToolTip": "C:\\Users\\Aluno_Manha\\source\\repos\\LoginCadastro\\LoginCadastro\\cadastro.cs",
+              "RelativeToolTip": "LoginCadastro\\cadastro.cs",
+              "ViewState": "AgIAAA8AAAAAAAAAAAAiwEcAAAAyAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-02T10:52:46.303Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
               "Title": "Form1.cs [Projeto]",
               "DocumentMoniker": "C:\\Users\\Aluno_Manha\\source\\repos\\LoginCadastro\\LoginCadastro\\Form1.cs",
               "RelativeDocumentMoniker": "LoginCadastro\\Form1.cs",
               "ToolTip": "C:\\Users\\Aluno_Manha\\source\\repos\\LoginCadastro\\LoginCadastro\\Form1.cs [Projeto]",
               "RelativeToolTip": "LoginCadastro\\Form1.cs [Projeto]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-01T14:13:59.088Z",
+              "WhenOpened": "2025-04-02T10:48:45.193Z",
               "EditorCaption": " [Projeto]"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 1,
               "Title": "Form1.cs",
               "DocumentMoniker": "C:\\Users\\Aluno_Manha\\source\\repos\\LoginCadastro\\LoginCadastro\\Form1.cs",
               "RelativeDocumentMoniker": "LoginCadastro\\Form1.cs",
               "ToolTip": "C:\\Users\\Aluno_Manha\\source\\repos\\LoginCadastro\\LoginCadastro\\Form1.cs",
               "RelativeToolTip": "LoginCadastro\\Form1.cs",
-              "ViewState": "AgIAACgAAAAAAAAAAAAkwFkAAAAJAAAAAAAAAA==",
+              "ViewState": "AgIAAD8AAAAAAAAAAAAAAEkAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-04-01T14:03:32.992Z",
               "EditorCaption": ""

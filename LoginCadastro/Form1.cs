@@ -21,52 +21,52 @@ namespace LoginCadastro
 
         private void btnLogin_Click(object sender, EventArgs e)
         {
-            /* try
-             {
+            try
+            {
 
-                 string usuario = txtUsuario.Text;
-                 string senha = txtSenha.Text;
+                string usuario = txtUsuario.Text;
+                string senha = txtSenha.Text;
 
 
 
-                 if (usuario != "" && senha != "")
-                 {
-                     string conexaoBanco = "Server=localHost; Database=sistemaLogin; Uid=root; pwd=''";
-                     MySqlConnection conexao = new MySqlConnection(conexaoBanco);
+                if (usuario != "" && senha != "")
+                {
+                    string conexaoBanco = "Server=localHost; Database=sistemaLogin; Uid=root; pwd=''";
+                    MySqlConnection conexao = new MySqlConnection(conexaoBanco);
 
-                     conexao.Open();
+                    conexao.Open();
 
-                     string consultaUsuario = "SELECT * FROM usuarios WHERE usuario = @usuario and senha = @senha ";
-                     MySqlCommand comandoSQL = new MySqlCommand(consultaUsuario, conexao);
+                    string consultaUsuario = "SELECT * FROM usuarios WHERE usuario = @usuario and senha = @senha ";
+                    MySqlCommand comandoSQL = new MySqlCommand(consultaUsuario, conexao);
 
-                     comandoSQL.Parameters.AddWithValue("@usuario", usuario);
-                     comandoSQL.Parameters.AddWithValue("@senha", senha);
+                    comandoSQL.Parameters.AddWithValue("@usuario", usuario);
+                    comandoSQL.Parameters.AddWithValue("@senha", senha);
 
-                     int registro = Convert.ToInt32(comandoSQL.ExecuteScalar());
+                    int registro = Convert.ToInt32(comandoSQL.ExecuteScalar());
 
-                     if (registro > 0)
-                     {
-                         MessageBox.Show("Login realizado com sucesso!");
-                     }
-                     else
-                     {
-                         MessageBox.Show("Usuário ou Senha inválidos!");
-                     }
+                    if (registro > 0)
+                    {
+                        MessageBox.Show("Login realizado com sucesso!");
+                    }
+                    else
+                    {
+                        MessageBox.Show("Usuário ou Senha inválidos!");
+                    }
 
-                     conexao.Close();
+                    conexao.Close();
 
-                 }
-                 else
-                 {
-                     MessageBox.Show("Usuário ou Senha inválidos!", "Erro", MessageBoxButtons.OK, MessageBoxIcon.Error);
+                }
+                else
+                {
+                    MessageBox.Show("Usuário ou Senha inválidos!", "Erro", MessageBoxButtons.OK, MessageBoxIcon.Error);
 
-                 }
-             }
-             catch (Exception ex)
-             {
-                 MessageBox.Show("Erro: " + ex.Message, "Erro", MessageBoxButtons.OK, MessageBoxIcon.Error);
+                }
+            }
+            catch (Exception ex)
+            {
+                MessageBox.Show("Erro: " + ex.Message, "Erro", MessageBoxButtons.OK, MessageBoxIcon.Error);
 
-             }*/
+            }
         }
 
         private void Form1_Load(object sender, EventArgs e)
@@ -84,10 +84,7 @@ namespace LoginCadastro
 
         }
 
-        private void button1_Click(object sender, EventArgs e)
-        {
 
-        }
 
         private void linkLabel1_LinkClicked(object sender, LinkLabelLinkClickedEventArgs e)
         {
@@ -95,5 +92,17 @@ namespace LoginCadastro
             telaCadastro.Show();
             this.Hide();
         }
+
+        private void txtUsuario_TextChanged_1(object sender, EventArgs e)
+        {
+
+        }
+
+        private void txtSenha_TextChanged_1(object sender, EventArgs e)
+        {
+
+        }
+
+        
     }
 }

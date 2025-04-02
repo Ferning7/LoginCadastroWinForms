@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("LoginCadastro")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+03804b96276d3847b45f105b44839e6f9a8c5dd4")]
 [assembly: System.Reflection.AssemblyProductAttribute("LoginCadastro")]
 [assembly: System.Reflection.AssemblyTitleAttribute("LoginCadastro")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
