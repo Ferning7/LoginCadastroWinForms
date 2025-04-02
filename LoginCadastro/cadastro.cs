@@ -18,14 +18,14 @@ namespace LoginCadastro
             InitializeComponent();
         }
 
-        private void bntCadastro_Click(object sender, EventArgs e)
+        private void btnCadastro_Click(object sender, EventArgs e)
         {
 
             try
             {
 
-                string usuarioCadastro = "";//txtUserCadastro.Text;
-                string senhaCadastro = "";//txtSenhaCadastro.Text;
+                string usuarioCadastro = txtUserCadastro.Text;
+                string senhaCadastro = txtSenhaCadastro.Text;
 
 
 
@@ -76,6 +76,10 @@ namespace LoginCadastro
                         if (ConsRegistroCadastro > 0)
                         {
                             MessageBox.Show("Cadastrado com sucesso!");
+                            Form1 telaLogin = new Form1();
+
+                            telaLogin.Show();
+                            this.Hide();
                         }
                         else
                         {
@@ -110,5 +114,7 @@ namespace LoginCadastro
         {
 
         }
+
+     
     }
 }
